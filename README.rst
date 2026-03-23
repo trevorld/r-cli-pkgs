@@ -36,6 +36,8 @@ R Argument/Option Parser Packages
 
 .. _scribe: https://github.com/jmbarbone/scribe
 
+.. _Xmisc: https://cran.r-project.org/package=Xmisc
+
 .. |cran_argparse| image:: https://www.r-pkg.org/badges/version/argparse
     :target: https://cran.r-project.org/package=argparse
     :alt: CRAN Status Badge
@@ -86,6 +88,10 @@ R Argument/Option Parser Packages
 
 .. |cran_scribe| image:: https://www.r-pkg.org/badges/version/scribe
     :target: https://cran.r-project.org/package=scribe
+    :alt: CRAN Status Badge
+
+.. |cran_Xmisc| image:: https://www.r-pkg.org/badges/version/Xmisc
+    :target: https://cran.r-project.org/package=Xmisc
     :alt: CRAN Status Badge
 
 .. |codecov_argparse| raw:: html
@@ -164,6 +170,10 @@ R Argument/Option Parser Packages
     :target: https://cran.r-project.org/package=scribe
     :alt: RStudio CRAN mirror downloads
 
+.. |downloads_Xmisc| image:: https://cranlogs.r-pkg.org/badges/Xmisc
+    :target: https://cran.r-project.org/package=Xmisc
+    :alt: RStudio CRAN mirror downloads
+
 .. |dependencies_argparse| image:: https://tinyverse.netlify.app/badge/argparse
     :target: https://cran.r-project.org/package=argparse
     :alt: Dependencies Badge
@@ -214,6 +224,10 @@ R Argument/Option Parser Packages
 
 .. |dependencies_scribe| image:: https://tinyverse.netlify.app/badge/scribe
     :target: https://cran.r-project.org/package=scribe
+    :alt: Dependencies Badge
+
+.. |dependencies_Xmisc| image:: https://tinyverse.netlify.app/badge/Xmisc
+    :target: https://cran.r-project.org/package=Xmisc
     :alt: Dependencies Badge
 
 .. list-table:: R Argument/Option Parser Packages
@@ -272,7 +286,7 @@ R Argument/Option Parser Packages
     - |downloads_optigrab|
     - |dependencies_optigrab|
     -
-    -
+    - Archived on 2025-12-22
   * - optparse_
     - |cran_optparse|
     - |downloads_optparse|
@@ -284,16 +298,29 @@ R Argument/Option Parser Packages
     - |downloads_minimist|
     - |dependencies_minimist|
     - |codecov_minimist|
-    -
+    - Archived on 2022-08-20
   * - scribe_
     - |cran_scribe|
     - |downloads_scribe|
     - |dependencies_scribe|
     - |codecov_scribe|
     -
+  * - Xmisc_
+    - |cran_Xmisc|
+    - |downloads_Xmisc|
+    - |dependencies_Xmisc|
+    -
+    - Archived on 2022-06-13
 
 `Rscript` Alternatives
 ~~~~~~~~~~~~~~~~~~~~~~
+
+There are a couple ways to run an R script ``script.R`` in a terminal with base R with the most popular way being Rscript_::
+
+    Rscript script.R  --foo
+    R --file=script.R --args --foo
+
+There are also a couple of alternative R scripting front-ends:
 
 .. list-table:: Rscript_ alternatives
   :header-rows: 1
@@ -309,7 +336,7 @@ R Argument/Option Parser Packages
     - |downloads_littler|
     - |dependencies_littler|
     -
-    -
+    - Does not support ``commandArgs(trailingOnly = TRUE)``
   * - Rapp_
     - |cran_Rapp|
     - |downloads_Rapp|
@@ -323,6 +350,7 @@ Other R Packages of Potential Interest to CLI Developers
 * `bittermelon <https://github.com/trevorld/bittermelon>`__
 * `cli <https://github.com/r-lib/cli>`__
 * `devoutansi <https://github.com/coolbutuseless/devoutansi>`__
+* `fansi <https://github.com/brodieG/fansi>`__
 * `plotcli <https://github.com/cheuerde/plotcli>`__
 * `ppcli <https://github.com/piecepackr/ppcli>`__
 * `terminalgraphics <https://codeberg.org/djvanderlaan/terminalgraphics>`__

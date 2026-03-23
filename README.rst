@@ -1,12 +1,9 @@
-R CLI Parsers
-=============
+R CLI Packages
+==============
 
-This is a list of CLI parsers for `the R language <https://www.r-project.org/>`_.
+This is a list of CLI packages for `the R language <https://www.r-project.org/>`_.
 
 Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issues>`_ or `pull request <https://github.com/trevorld/splendid-r-cli-parsers/pulls>`_ to adjust the list.  Add the package alphabetically to the relevant section.
-
-R Argument/Option Parser Packages
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. _argparse: https://github.com/trevorld/r-argparse
 
@@ -37,6 +34,22 @@ R Argument/Option Parser Packages
 .. _scribe: https://github.com/jmbarbone/scribe
 
 .. _Xmisc: https://cran.r-project.org/package=Xmisc
+
+.. _bittermelon: https://github.com/trevorld/bittermelon
+
+.. _cli: https://github.com/r-lib/cli
+
+.. _crayon: https://github.com/r-lib/crayon
+
+.. _devoutansi: https://github.com/coolbutuseless/devoutansi
+
+.. _fansi: https://github.com/brodieG/fansi
+
+.. _plotcli: https://github.com/cheuerde/plotcli
+
+.. _ppcli: https://github.com/piecepackr/ppcli
+
+.. _terminalgraphics: https://codeberg.org/djvanderlaan/terminalgraphics
 
 .. |cran_argparse| image:: https://www.r-pkg.org/badges/version/argparse
     :target: https://cran.r-project.org/package=argparse
@@ -94,6 +107,22 @@ R Argument/Option Parser Packages
     :target: https://cran.r-project.org/package=Xmisc
     :alt: CRAN Status Badge
 
+.. |cran_bittermelon| image:: https://www.r-pkg.org/badges/version/bittermelon
+    :target: https://cran.r-project.org/package=bittermelon
+    :alt: CRAN Status Badge
+
+.. |cran_cli| image:: https://www.r-pkg.org/badges/version/cli
+    :target: https://cran.r-project.org/package=cli
+    :alt: CRAN Status Badge
+
+.. |cran_crayon| image:: https://www.r-pkg.org/badges/version/crayon
+    :target: https://cran.r-project.org/package=crayon
+    :alt: CRAN Status Badge
+
+.. |cran_fansi| image:: https://www.r-pkg.org/badges/version/fansi
+    :target: https://cran.r-project.org/package=fansi
+    :alt: CRAN Status Badge
+
 .. |codecov_argparse| raw:: html
 
    <a href="https://app.codecov.io/github/trevorld/r-argparse?branch=master"><img alt="Coverage Status" src="https://codecov.io/github/trevorld/r-argparse/branch/master/graph/badge.svg" /></a>
@@ -117,6 +146,22 @@ R Argument/Option Parser Packages
 .. |codecov_scribe| raw:: html
 
    <a href="https://app.codecov.io/github/jmbarbone/scribe?branch=main"><img alt="Coverage Status" src="https://codecov.io/github/jmbarbone/scribe/branch/main/graph/badge.svg" /></a>
+
+.. |codecov_bittermelon| raw:: html
+
+   <a href="https://app.codecov.io/github/trevorld/bittermelon?branch=main"><img alt="Coverage Status" src="https://codecov.io/github/trevorld/bittermelon/branch/main/graph/badge.svg" /></a>
+
+.. |codecov_cli| raw:: html
+
+   <a href="https://app.codecov.io/github/r-lib/cli?branch=main"><img alt="Coverage Status" src="https://codecov.io/github/r-lib/cli/branch/main/graph/badge.svg" /></a>
+
+.. |codecov_crayon| raw:: html
+
+   <a href="https://app.codecov.io/github/r-lib/crayon?branch=main"><img alt="Coverage Status" src="https://codecov.io/github/r-lib/crayon/branch/main/graph/badge.svg" /></a>
+
+.. |codecov_fansi| raw:: html
+
+   <a href="https://app.codecov.io/github/brodieG/fansi?branch=main"><img alt="Coverage Status" src="https://codecov.io/github/brodieG/fansi/branch/main/graph/badge.svg" /></a>
 
 .. |downloads_argparse| image:: https://cranlogs.r-pkg.org/badges/argparse
     :target: https://cran.r-project.org/package=argparse
@@ -174,6 +219,22 @@ R Argument/Option Parser Packages
     :target: https://cran.r-project.org/package=Xmisc
     :alt: RStudio CRAN mirror downloads
 
+.. |downloads_bittermelon| image:: https://cranlogs.r-pkg.org/badges/bittermelon
+    :target: https://cran.r-project.org/package=bittermelon
+    :alt: RStudio CRAN mirror downloads
+
+.. |downloads_cli| image:: https://cranlogs.r-pkg.org/badges/cli
+    :target: https://cran.r-project.org/package=cli
+    :alt: RStudio CRAN mirror downloads
+
+.. |downloads_crayon| image:: https://cranlogs.r-pkg.org/badges/crayon
+    :target: https://cran.r-project.org/package=crayon
+    :alt: RStudio CRAN mirror downloads
+
+.. |downloads_fansi| image:: https://cranlogs.r-pkg.org/badges/fansi
+    :target: https://cran.r-project.org/package=fansi
+    :alt: RStudio CRAN mirror downloads
+
 .. |dependencies_argparse| image:: https://tinyverse.netlify.app/badge/argparse
     :target: https://cran.r-project.org/package=argparse
     :alt: Dependencies Badge
@@ -229,6 +290,25 @@ R Argument/Option Parser Packages
 .. |dependencies_Xmisc| image:: https://tinyverse.netlify.app/badge/Xmisc
     :target: https://cran.r-project.org/package=Xmisc
     :alt: Dependencies Badge
+
+.. |dependencies_bittermelon| image:: https://tinyverse.netlify.app/badge/bittermelon
+    :target: https://cran.r-project.org/package=bittermelon
+    :alt: Dependencies Badge
+
+.. |dependencies_cli| image:: https://tinyverse.netlify.app/badge/cli
+    :target: https://cran.r-project.org/package=cli
+    :alt: Dependencies Badge
+
+.. |dependencies_crayon| image:: https://tinyverse.netlify.app/badge/crayon
+    :target: https://cran.r-project.org/package=crayon
+    :alt: Dependencies Badge
+
+.. |dependencies_fansi| image:: https://tinyverse.netlify.app/badge/fansi
+    :target: https://cran.r-project.org/package=fansi
+    :alt: Dependencies Badge
+
+R Argument/Option Parser Packages
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table:: R Argument/Option Parser Packages
   :header-rows: 1
@@ -347,10 +427,80 @@ There are also a couple of alternative R scripting front-ends:
 Other R Packages of Potential Interest to CLI Developers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* `bittermelon <https://github.com/trevorld/bittermelon>`__
-* `cli <https://github.com/r-lib/cli>`__
-* `devoutansi <https://github.com/coolbutuseless/devoutansi>`__
-* `fansi <https://github.com/brodieG/fansi>`__
-* `plotcli <https://github.com/cheuerde/plotcli>`__
-* `ppcli <https://github.com/piecepackr/ppcli>`__
-* `terminalgraphics <https://codeberg.org/djvanderlaan/terminalgraphics>`__
+ANSI Sequences
+^^^^^^^^^^^^^^
+
+ANSI Sequences can be used to color/style terminal output:
+
+.. list-table:: ANSI Sequence Packages
+  :header-rows: 1
+
+  * - Package
+    - CRAN
+    - Downloads
+    - Dependencies
+    - Coverage
+    - Note
+  * - cli_
+    - |cran_cli|
+    - |downloads_cli|
+    - |dependencies_cli|
+    - |codecov_cli|
+    -
+  * - crayon_
+    - |cran_crayon|
+    - |downloads_crayon|
+    - |dependencies_crayon|
+    - |codecov_crayon|
+    -
+  * - fansi_
+    - |cran_fansi|
+    - |downloads_fansi|
+    - |dependencies_fansi|
+    - |codecov_fansi|
+    -
+
+Terminal Graphics
+^^^^^^^^^^^^^^^^^
+
+There are several packages to make graphics in the terminal:
+
+.. list-table:: Terminal Graphics Packages
+  :header-rows: 1
+
+  * - Package
+    - CRAN
+    - Downloads
+    - Dependencies
+    - Coverage
+    - Note
+  * - bittermelon_
+    - |cran_bittermelon|
+    - |downloads_bittermelon|
+    - |dependencies_bittermelon|
+    - |codecov_bittermelon|
+    -
+  * - devoutansi_
+    -
+    -
+    -
+    -
+    -
+  * - plotcli_
+    -
+    -
+    -
+    -
+    -
+  * - ppcli_
+    -
+    -
+    -
+    -
+    -
+  * - terminalgraphics_
+    -
+    -
+    -
+    -
+    -

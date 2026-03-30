@@ -806,69 +806,6 @@ Script Filename
     -
     -
 
-Terminal Manipulation/Styling
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-These packages can be used to manipulate the terminal and color/style terminal output:
-
-.. list-table:: Terminal Manipulation/Styling Packages
-  :header-rows: 1
-
-  * - Package
-    - CRAN
-    - Downloads
-    - Dependencies
-    - Coverage
-    - Note
-  * - cli_
-    - |cran_cli|
-    - |downloads_cli|
-    - |dependencies_cli|
-    - |coverage_cli|
-    -
-  * - cliapp_
-    - |cran_cliapp|
-    - |downloads_cliapp|
-    - |dependencies_cliapp|
-    -
-    - Superseded by cli_
-  * - climenu_
-    - |cran_climenu|
-    - |downloads_climenu|
-    - |dependencies_climenu|
-    -
-    -
-  * - crayon_
-    - |cran_crayon|
-    - |downloads_crayon|
-    - |dependencies_crayon|
-    - |coverage_crayon|
-    - Superseded by cli_
-  * - colt_
-    - |cran_colt|
-    - |downloads_colt|
-    - |dependencies_colt|
-    -
-    -
-  * - cursr_
-    - |cran_cursr|
-    - |downloads_cursr|
-    - |dependencies_cursr|
-    -
-    -
-  * - fansi_
-    - |cran_fansi|
-    - |downloads_fansi|
-    - |dependencies_fansi|
-    - |coverage_fansi|
-    -
-  * - keypress_
-    - |cran_keypress|
-    - |downloads_keypress|
-    - |dependencies_keypress|
-    - |coverage_keypress|
-    -
-
 Terminal Graphics
 ~~~~~~~~~~~~~~~~~
 
@@ -930,6 +867,69 @@ There are several packages to make graphics in the terminal:
     - |downloads_txtplot|
     - |dependencies_txtplot|
     -
+    -
+
+Terminal Manipulation/Styling
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These packages can be used to manipulate the terminal and color/style terminal output:
+
+.. list-table:: Terminal Manipulation/Styling Packages
+  :header-rows: 1
+
+  * - Package
+    - CRAN
+    - Downloads
+    - Dependencies
+    - Coverage
+    - Note
+  * - cli_
+    - |cran_cli|
+    - |downloads_cli|
+    - |dependencies_cli|
+    - |coverage_cli|
+    -
+  * - cliapp_
+    - |cran_cliapp|
+    - |downloads_cliapp|
+    - |dependencies_cliapp|
+    -
+    - Superseded by cli_
+  * - climenu_
+    - |cran_climenu|
+    - |downloads_climenu|
+    - |dependencies_climenu|
+    -
+    -
+  * - crayon_
+    - |cran_crayon|
+    - |downloads_crayon|
+    - |dependencies_crayon|
+    - |coverage_crayon|
+    - Superseded by cli_
+  * - colt_
+    - |cran_colt|
+    - |downloads_colt|
+    - |dependencies_colt|
+    -
+    -
+  * - cursr_
+    - |cran_cursr|
+    - |downloads_cursr|
+    - |dependencies_cursr|
+    -
+    -
+  * - fansi_
+    - |cran_fansi|
+    - |downloads_fansi|
+    - |dependencies_fansi|
+    - |coverage_fansi|
+    -
+  * - keypress_
+    - |cran_keypress|
+    - |downloads_keypress|
+    - |dependencies_keypress|
+    - |coverage_keypress|
     -
 
 Terminal Tables

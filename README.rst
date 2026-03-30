@@ -5,6 +5,8 @@ This is a list of CLI packages for `the R language <https://www.r-project.org/>`
 
 Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issues>`_ or `pull request <https://github.com/trevorld/splendid-r-cli-parsers/pulls>`_ to adjust the list.  Add the package alphabetically to the relevant section.
 
+.. contents::
+
 .. _argparse: https://github.com/trevorld/r-argparse
 
 .. _argparser: https://bitbucket.org/djhshih/argparser/src/master/
@@ -54,6 +56,16 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 .. _fansi: https://github.com/brodieG/fansi
 
 .. _NostalgiR: https://cran.r-project.org/package=NostalgiR
+
+.. _clitable: https://github.com/kforner/clitable
+
+.. _colorDF: https://github.com/january3/colorDF
+
+.. _emphatic: https://github.com/coolbutuseless/emphatic
+
+.. _formatters: https://github.com/insightsengineering/formatters
+
+.. _paint: https://github.com/MilesMcBain/paint
 
 .. _plotcli: https://github.com/cheuerde/plotcli
 
@@ -157,6 +169,22 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
     :target: https://cran.r-project.org/package=NostalgiR
     :alt: CRAN Status Badge
 
+.. |cran_clitable| image:: https://www.r-pkg.org/badges/version/clitable
+    :target: https://cran.r-project.org/package=clitable
+    :alt: CRAN Status Badge
+
+.. |cran_colorDF| image:: https://www.r-pkg.org/badges/version/colorDF
+    :target: https://cran.r-project.org/package=colorDF
+    :alt: CRAN Status Badge
+
+.. |cran_emphatic| image:: https://www.r-pkg.org/badges/version/emphatic
+    :target: https://cran.r-project.org/package=emphatic
+    :alt: CRAN Status Badge
+
+.. |cran_formatters| image:: https://www.r-pkg.org/badges/version/formatters
+    :target: https://cran.r-project.org/package=formatters
+    :alt: CRAN Status Badge
+
 .. |cran_plotcli| image:: https://www.r-pkg.org/badges/version/plotcli
     :target: https://cran.r-project.org/package=plotcli
     :alt: CRAN Status Badge
@@ -224,6 +252,14 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 .. |codecov_fansi| raw:: html
 
    <a href="https://app.codecov.io/github/brodieG/fansi?branch=main"><img alt="Coverage Status" src="https://codecov.io/github/brodieG/fansi/branch/main/graph/badge.svg" /></a>
+
+.. |codecov_clitable| raw:: html
+
+   <a href="https://app.codecov.io/gh/kforner/clitable?branch=main"><img alt="Coverage Status" src="https://codecov.io/gh/kforner/clitable/branch/main/graph/badge.svg" /></a>
+
+.. |codecov_formatters| raw:: html
+
+   <a href="https://insightsengineering.github.io/formatters/main/coverage-report/"><img alt="Coverage Status" src="https://raw.githubusercontent.com/insightsengineering/formatters/_xml_coverage_reports/data/main/badge.svg" /></a>
 
 .. |downloads_argparse| image:: https://cranlogs.r-pkg.org/badges/argparse
     :target: https://cran.r-project.org/package=argparse
@@ -315,6 +351,22 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 
 .. |downloads_NostalgiR| image:: https://cranlogs.r-pkg.org/badges/NostalgiR
     :target: https://cran.r-project.org/package=NostalgiR
+    :alt: RStudio CRAN mirror downloads
+
+.. |downloads_clitable| image:: https://cranlogs.r-pkg.org/badges/clitable
+    :target: https://cran.r-project.org/package=clitable
+    :alt: RStudio CRAN mirror downloads
+
+.. |downloads_colorDF| image:: https://cranlogs.r-pkg.org/badges/colorDF
+    :target: https://cran.r-project.org/package=colorDF
+    :alt: RStudio CRAN mirror downloads
+
+.. |downloads_emphatic| image:: https://cranlogs.r-pkg.org/badges/emphatic
+    :target: https://cran.r-project.org/package=emphatic
+    :alt: RStudio CRAN mirror downloads
+
+.. |downloads_formatters| image:: https://cranlogs.r-pkg.org/badges/formatters
+    :target: https://cran.r-project.org/package=formatters
     :alt: RStudio CRAN mirror downloads
 
 .. |downloads_plotcli| image:: https://cranlogs.r-pkg.org/badges/plotcli
@@ -423,6 +475,22 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 
 .. |dependencies_NostalgiR| image:: https://tinyverse.netlify.app/badge/NostalgiR
     :target: https://cran.r-project.org/package=NostalgiR
+    :alt: Dependencies Badge
+
+.. |dependencies_clitable| image:: https://tinyverse.netlify.app/badge/clitable
+    :target: https://cran.r-project.org/package=clitable
+    :alt: Dependencies Badge
+
+.. |dependencies_colorDF| image:: https://tinyverse.netlify.app/badge/colorDF
+    :target: https://cran.r-project.org/package=colorDF
+    :alt: Dependencies Badge
+
+.. |dependencies_emphatic| image:: https://tinyverse.netlify.app/badge/emphatic
+    :target: https://cran.r-project.org/package=emphatic
+    :alt: Dependencies Badge
+
+.. |dependencies_formatters| image:: https://tinyverse.netlify.app/badge/formatters
+    :target: https://cran.r-project.org/package=formatters
     :alt: Dependencies Badge
 
 .. |dependencies_plotcli| image:: https://tinyverse.netlify.app/badge/plotcli
@@ -678,5 +746,50 @@ There are several packages to make graphics in the terminal:
     - |cran_txtplot|
     - |downloads_txtplot|
     - |dependencies_txtplot|
+    -
+    -
+
+Terminal Tables
+^^^^^^^^^^^^^^^
+
+There are several packages to display tables in the terminal:
+
+.. list-table:: Terminal Table Packages
+  :header-rows: 1
+
+  * - Package
+    - CRAN
+    - Downloads
+    - Dependencies
+    - Coverage
+    - Note
+  * - clitable_
+    - |cran_clitable|
+    - |downloads_clitable|
+    - |dependencies_clitable|
+    - |codecov_clitable|
+    -
+  * - colorDF_
+    - |cran_colorDF|
+    - |downloads_colorDF|
+    - |dependencies_colorDF|
+    -
+    -
+  * - emphatic_
+    - |cran_emphatic|
+    - |downloads_emphatic|
+    - |dependencies_emphatic|
+    -
+    -
+  * - formatters_
+    - |cran_formatters|
+    - |downloads_formatters|
+    - |dependencies_formatters|
+    - |codecov_formatters|
+    -
+  * - paint_
+    -
+    -
+    -
     -
     -

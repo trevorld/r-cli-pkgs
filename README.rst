@@ -49,11 +49,21 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 
 .. _cli: https://github.com/r-lib/cli
 
+.. _cliapp: https://github.com/r-lib/cliapp
+
+.. _climenu: https://github.com/PetrCala/climenu
+
 .. _crayon: https://github.com/r-lib/crayon
 
 .. _devoutansi: https://github.com/coolbutuseless/devoutansi
 
+.. _colt: https://github.com/s-fleck/colt
+
+.. _cursr: https://cran.r-project.org/package=cursr
+
 .. _fansi: https://github.com/brodieG/fansi
+
+.. _keypress: https://github.com/gaborcsardi/keypress
 
 .. _NostalgiR: https://cran.r-project.org/package=NostalgiR
 
@@ -157,12 +167,32 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
     :target: https://cran.r-project.org/package=cli
     :alt: CRAN Status Badge
 
+.. |cran_cliapp| image:: https://www.r-pkg.org/badges/version/cliapp
+    :target: https://cran.r-project.org/package=cliapp
+    :alt: CRAN Status Badge
+
 .. |cran_crayon| image:: https://www.r-pkg.org/badges/version/crayon
     :target: https://cran.r-project.org/package=crayon
     :alt: CRAN Status Badge
 
+.. |cran_climenu| image:: https://www.r-pkg.org/badges/version/climenu
+    :target: https://cran.r-project.org/package=climenu
+    :alt: CRAN Status Badge
+
+.. |cran_colt| image:: https://www.r-pkg.org/badges/version/colt
+    :target: https://cran.r-project.org/package=colt
+    :alt: CRAN Status Badge
+
+.. |cran_cursr| image:: https://www.r-pkg.org/badges/version/cursr
+    :target: https://cran.r-project.org/package=cursr
+    :alt: CRAN Status Badge
+
 .. |cran_fansi| image:: https://www.r-pkg.org/badges/version/fansi
     :target: https://cran.r-project.org/package=fansi
+    :alt: CRAN Status Badge
+
+.. |cran_keypress| image:: https://www.r-pkg.org/badges/version/keypress
+    :target: https://cran.r-project.org/package=keypress
     :alt: CRAN Status Badge
 
 .. |cran_NostalgiR| image:: https://www.r-pkg.org/badges/version/NostalgiR
@@ -201,65 +231,69 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
     :target: https://cran.r-project.org/package=txtplot
     :alt: CRAN Status Badge
 
-.. |codecov_argparse| raw:: html
+.. |coverage_argparse| raw:: html
 
    <a href="https://app.codecov.io/github/trevorld/r-argparse?branch=master"><img alt="Coverage Status" src="https://codecov.io/github/trevorld/r-argparse/branch/master/graph/badge.svg" /></a>
 
-.. |codecov_arrg| raw:: html
+.. |coverage_arrg| raw:: html
 
    <a href="https://app.codecov.io/gh/jonclayden/arrg?branch=main"><img alt="Coverage Status" src="https://codecov.io/gh/jonclayden/arrg/branch/main/graph/badge.svg" /></a>
 
-.. |codecov_command| raw:: html
+.. |coverage_command| raw:: html
 
    <a href="https://app.codecov.io/gh/bayesiandemography/command?branch=main"><img alt="Coverage Status" src="https://codecov.io/gh/bayesiandemography/command/branch/main/graph/badge.svg" /></a>
 
-.. |codecov_getopt| raw:: html
+.. |coverage_getopt| raw:: html
 
    <a href="https://app.codecov.io/github/trevorld/r-getopt?branch=master"><img alt="Coverage Status" src="https://codecov.io/github/trevorld/r-getopt/branch/master/graph/badge.svg" /></a>
 
-.. |codecov_GetoptLong| raw:: html
+.. |coverage_GetoptLong| raw:: html
 
    <a href="https://app.codecov.io/github/jokergoo/GetoptLong?branch=master"><img alt="Coverage Status" src="https://codecov.io/github/jokergoo/GetoptLong/branch/master/graph/badge.svg" /></a>
 
-.. |codecov_minimist| raw:: html
+.. |coverage_minimist| raw:: html
 
    <a href="https://app.codecov.io/github/jeroen/minimist?branch=master"><img alt="Coverage Status" src="https://codecov.io/github/jeroen/minimist/branch/master/graph/badge.svg" /></a>
 
-.. |codecov_optparse| raw:: html
+.. |coverage_optparse| raw:: html
 
    <a href="https://app.codecov.io/github/trevorld/r-optparse?branch=master"><img alt="Coverage Status" src="https://codecov.io/github/trevorld/r-optparse/branch/master/graph/badge.svg" /></a>
 
-.. |codecov_scribe| raw:: html
+.. |coverage_scribe| raw:: html
 
    <a href="https://app.codecov.io/github/jmbarbone/scribe?branch=main"><img alt="Coverage Status" src="https://codecov.io/github/jmbarbone/scribe/branch/main/graph/badge.svg" /></a>
 
-.. |codecov_bittermelon| raw:: html
+.. |coverage_bittermelon| raw:: html
 
    <a href="https://app.codecov.io/github/trevorld/bittermelon?branch=main"><img alt="Coverage Status" src="https://codecov.io/github/trevorld/bittermelon/branch/main/graph/badge.svg" /></a>
 
-.. |codecov_cli| raw:: html
+.. |coverage_cli| raw:: html
 
    <a href="https://app.codecov.io/github/r-lib/cli?branch=main"><img alt="Coverage Status" src="https://codecov.io/github/r-lib/cli/branch/main/graph/badge.svg" /></a>
 
-.. |codecov_crayon| raw:: html
+.. |coverage_crayon| raw:: html
 
    <a href="https://app.codecov.io/github/r-lib/crayon?branch=main"><img alt="Coverage Status" src="https://codecov.io/github/r-lib/crayon/branch/main/graph/badge.svg" /></a>
 
-.. |codecov_ppcli| raw:: html
+.. |coverage_ppcli| raw:: html
 
    <a href="https://app.codecov.io/github/piecepackr/ppcli?branch=main"><img alt="Coverage Status" src="https://codecov.io/github/piecepackr/ppcli/branch/main/graph/badge.svg" /></a>
 
-.. |codecov_fansi| raw:: html
+.. |coverage_fansi| raw:: html
 
    <a href="https://app.codecov.io/github/brodieG/fansi?branch=main"><img alt="Coverage Status" src="https://codecov.io/github/brodieG/fansi/branch/main/graph/badge.svg" /></a>
 
-.. |codecov_clitable| raw:: html
+.. |coverage_clitable| raw:: html
 
    <a href="https://app.codecov.io/gh/kforner/clitable?branch=main"><img alt="Coverage Status" src="https://codecov.io/gh/kforner/clitable/branch/main/graph/badge.svg" /></a>
 
-.. |codecov_formatters| raw:: html
+.. |coverage_formatters| raw:: html
 
    <a href="https://insightsengineering.github.io/formatters/main/coverage-report/"><img alt="Coverage Status" src="https://raw.githubusercontent.com/insightsengineering/formatters/_xml_coverage_reports/data/main/badge.svg" /></a>
+
+.. |coverage_keypress| raw:: html
+
+   <a href="https://app.codecov.io/gh/gaborcsardi/keypress?branch=main"><img alt="Coverage Status" src="https://codecov.io/gh/gaborcsardi/keypress/branch/main/graph/badge.svg" /></a>
 
 .. |downloads_argparse| image:: https://cranlogs.r-pkg.org/badges/argparse
     :target: https://cran.r-project.org/package=argparse
@@ -341,12 +375,32 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
     :target: https://cran.r-project.org/package=cli
     :alt: RStudio CRAN mirror downloads
 
+.. |downloads_cliapp| image:: https://cranlogs.r-pkg.org/badges/cliapp
+    :target: https://cran.r-project.org/package=cliapp
+    :alt: RStudio CRAN mirror downloads
+
 .. |downloads_crayon| image:: https://cranlogs.r-pkg.org/badges/crayon
     :target: https://cran.r-project.org/package=crayon
     :alt: RStudio CRAN mirror downloads
 
+.. |downloads_climenu| image:: https://cranlogs.r-pkg.org/badges/climenu
+    :target: https://cran.r-project.org/package=climenu
+    :alt: RStudio CRAN mirror downloads
+
+.. |downloads_colt| image:: https://cranlogs.r-pkg.org/badges/colt
+    :target: https://cran.r-project.org/package=colt
+    :alt: RStudio CRAN mirror downloads
+
+.. |downloads_cursr| image:: https://cranlogs.r-pkg.org/badges/cursr
+    :target: https://cran.r-project.org/package=cursr
+    :alt: RStudio CRAN mirror downloads
+
 .. |downloads_fansi| image:: https://cranlogs.r-pkg.org/badges/fansi
     :target: https://cran.r-project.org/package=fansi
+    :alt: RStudio CRAN mirror downloads
+
+.. |downloads_keypress| image:: https://cranlogs.r-pkg.org/badges/keypress
+    :target: https://cran.r-project.org/package=keypress
     :alt: RStudio CRAN mirror downloads
 
 .. |downloads_NostalgiR| image:: https://cranlogs.r-pkg.org/badges/NostalgiR
@@ -465,12 +519,32 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
     :target: https://cran.r-project.org/package=cli
     :alt: Dependencies Badge
 
+.. |dependencies_cliapp| image:: https://tinyverse.netlify.app/badge/cliapp
+    :target: https://cran.r-project.org/package=cliapp
+    :alt: Dependencies Badge
+
 .. |dependencies_crayon| image:: https://tinyverse.netlify.app/badge/crayon
     :target: https://cran.r-project.org/package=crayon
     :alt: Dependencies Badge
 
+.. |dependencies_climenu| image:: https://tinyverse.netlify.app/badge/climenu
+    :target: https://cran.r-project.org/package=climenu
+    :alt: Dependencies Badge
+
+.. |dependencies_colt| image:: https://tinyverse.netlify.app/badge/colt
+    :target: https://cran.r-project.org/package=colt
+    :alt: Dependencies Badge
+
+.. |dependencies_cursr| image:: https://tinyverse.netlify.app/badge/cursr
+    :target: https://cran.r-project.org/package=cursr
+    :alt: Dependencies Badge
+
 .. |dependencies_fansi| image:: https://tinyverse.netlify.app/badge/fansi
     :target: https://cran.r-project.org/package=fansi
+    :alt: Dependencies Badge
+
+.. |dependencies_keypress| image:: https://tinyverse.netlify.app/badge/keypress
+    :target: https://cran.r-project.org/package=keypress
     :alt: Dependencies Badge
 
 .. |dependencies_NostalgiR| image:: https://tinyverse.netlify.app/badge/NostalgiR
@@ -525,7 +599,7 @@ R Argument/Option Parser Packages
     - |cran_argparse|
     - |downloads_argparse|
     - |dependencies_argparse|
-    - |codecov_argparse|
+    - |coverage_argparse|
     - Python dependency
   * - argparser_
     - |cran_argparser|
@@ -537,7 +611,7 @@ R Argument/Option Parser Packages
     - |cran_arrg|
     - |downloads_arrg|
     - |dependencies_arrg|
-    - |codecov_arrg|
+    - |coverage_arrg|
     -
   * - batch_
     - |cran_batch|
@@ -549,7 +623,7 @@ R Argument/Option Parser Packages
     - |cran_command|
     - |downloads_command|
     - |dependencies_command|
-    - |codecov_command|
+    - |coverage_command|
     -
   * - defineOptions_
     - |cran_defineOptions|
@@ -567,13 +641,13 @@ R Argument/Option Parser Packages
     - |cran_getopt|
     - |downloads_getopt|
     - |dependencies_getopt|
-    - |codecov_getopt|
+    - |coverage_getopt|
     -
   * - GetoptLong_
     - |cran_GetoptLong|
     - |downloads_GetoptLong|
     - |dependencies_GetoptLong|
-    - |codecov_GetoptLong|
+    - |coverage_GetoptLong|
     - Perl dependency
   * - optigrab_
     - |cran_optigrab|
@@ -585,13 +659,13 @@ R Argument/Option Parser Packages
     - |cran_optparse|
     - |downloads_optparse|
     - |dependencies_optparse|
-    - |codecov_optparse|
+    - |coverage_optparse|
     -
   * - minimist_
     - |cran_minimist|
     - |downloads_minimist|
     - |dependencies_minimist|
-    - |codecov_minimist|
+    - |coverage_minimist|
     - Archived on 2022-08-20
   * - rconfig_
     - |cran_rconfig|
@@ -609,7 +683,7 @@ R Argument/Option Parser Packages
     - |cran_scribe|
     - |downloads_scribe|
     - |dependencies_scribe|
-    - |codecov_scribe|
+    - |coverage_scribe|
     -
   * - Xmisc_
     - |cran_Xmisc|
@@ -653,12 +727,12 @@ There are also a couple of alternative R scripting front-ends:
 Other R Packages of Potential Interest to CLI Developers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-ANSI Sequences
-^^^^^^^^^^^^^^
+Terminal Manipulation/Styling
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-ANSI Sequences can be used to color/style terminal output:
+These packages can be used to manipulate the terminal and color/style terminal output:
 
-.. list-table:: ANSI Sequence Packages
+.. list-table:: Terminal Manipulation/Styling Packages
   :header-rows: 1
 
   * - Package
@@ -671,19 +745,49 @@ ANSI Sequences can be used to color/style terminal output:
     - |cran_cli|
     - |downloads_cli|
     - |dependencies_cli|
-    - |codecov_cli|
+    - |coverage_cli|
+    -
+  * - cliapp_
+    - |cran_cliapp|
+    - |downloads_cliapp|
+    - |dependencies_cliapp|
+    -
+    - Superseded by cli_
+  * - climenu_
+    - |cran_climenu|
+    - |downloads_climenu|
+    - |dependencies_climenu|
+    -
     -
   * - crayon_
     - |cran_crayon|
     - |downloads_crayon|
     - |dependencies_crayon|
-    - |codecov_crayon|
+    - |coverage_crayon|
+    - Superseded by cli_
+  * - colt_
+    - |cran_colt|
+    - |downloads_colt|
+    - |dependencies_colt|
+    -
+    -
+  * - cursr_
+    - |cran_cursr|
+    - |downloads_cursr|
+    - |dependencies_cursr|
+    -
     -
   * - fansi_
     - |cran_fansi|
     - |downloads_fansi|
     - |dependencies_fansi|
-    - |codecov_fansi|
+    - |coverage_fansi|
+    -
+  * - keypress_
+    - |cran_keypress|
+    - |downloads_keypress|
+    - |dependencies_keypress|
+    - |coverage_keypress|
     -
 
 Terminal Graphics
@@ -704,7 +808,7 @@ There are several packages to make graphics in the terminal:
     - |cran_bittermelon|
     - |downloads_bittermelon|
     - |dependencies_bittermelon|
-    - |codecov_bittermelon|
+    - |coverage_bittermelon|
     -
   * - devoutansi_
     -
@@ -728,7 +832,7 @@ There are several packages to make graphics in the terminal:
     -
     -
     -
-    - |codecov_ppcli|
+    - |coverage_ppcli|
     -
   * - rsixel_
     - |cran_rsixel|
@@ -767,7 +871,7 @@ There are several packages to display tables in the terminal:
     - |cran_clitable|
     - |downloads_clitable|
     - |dependencies_clitable|
-    - |codecov_clitable|
+    - |coverage_clitable|
     -
   * - colorDF_
     - |cran_colorDF|
@@ -785,7 +889,7 @@ There are several packages to display tables in the terminal:
     - |cran_formatters|
     - |downloads_formatters|
     - |dependencies_formatters|
-    - |codecov_formatters|
+    - |coverage_formatters|
     -
   * - paint_
     -

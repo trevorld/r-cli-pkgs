@@ -53,6 +53,8 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 
 .. _fansi: https://github.com/brodieG/fansi
 
+.. _NostalgiR: https://cran.r-project.org/package=NostalgiR
+
 .. _plotcli: https://github.com/cheuerde/plotcli
 
 .. _ppcli: https://github.com/piecepackr/ppcli
@@ -149,6 +151,10 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 
 .. |cran_fansi| image:: https://www.r-pkg.org/badges/version/fansi
     :target: https://cran.r-project.org/package=fansi
+    :alt: CRAN Status Badge
+
+.. |cran_NostalgiR| image:: https://www.r-pkg.org/badges/version/NostalgiR
+    :target: https://cran.r-project.org/package=NostalgiR
     :alt: CRAN Status Badge
 
 .. |cran_plotcli| image:: https://www.r-pkg.org/badges/version/plotcli
@@ -307,6 +313,10 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
     :target: https://cran.r-project.org/package=fansi
     :alt: RStudio CRAN mirror downloads
 
+.. |downloads_NostalgiR| image:: https://cranlogs.r-pkg.org/badges/NostalgiR
+    :target: https://cran.r-project.org/package=NostalgiR
+    :alt: RStudio CRAN mirror downloads
+
 .. |downloads_plotcli| image:: https://cranlogs.r-pkg.org/badges/plotcli
     :target: https://cran.r-project.org/package=plotcli
     :alt: RStudio CRAN mirror downloads
@@ -409,6 +419,10 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 
 .. |dependencies_fansi| image:: https://tinyverse.netlify.app/badge/fansi
     :target: https://cran.r-project.org/package=fansi
+    :alt: Dependencies Badge
+
+.. |dependencies_NostalgiR| image:: https://tinyverse.netlify.app/badge/NostalgiR
+    :target: https://cran.r-project.org/package=NostalgiR
     :alt: Dependencies Badge
 
 .. |dependencies_plotcli| image:: https://tinyverse.netlify.app/badge/plotcli
@@ -628,6 +642,12 @@ There are several packages to make graphics in the terminal:
     -
     -
     -
+    -
+    -
+  * - NostalgiR_
+    - |cran_NostalgiR|
+    - |downloads_NostalgiR|
+    - |dependencies_NostalgiR|
     -
     -
   * - plotcli_

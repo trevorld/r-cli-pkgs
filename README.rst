@@ -65,6 +65,12 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 
 .. _keypress: https://github.com/gaborcsardi/keypress
 
+.. _script: https://cran.r-project.org/package=script
+
+.. _scriptloc: https://cran.r-project.org/package=scriptloc
+
+.. _scriptName: https://github.com/MullinsLab/scriptName
+
 .. _NostalgiR: https://cran.r-project.org/package=NostalgiR
 
 .. _clitable: https://github.com/kforner/clitable
@@ -193,6 +199,18 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 
 .. |cran_keypress| image:: https://www.r-pkg.org/badges/version/keypress
     :target: https://cran.r-project.org/package=keypress
+    :alt: CRAN Status Badge
+
+.. |cran_script| image:: https://www.r-pkg.org/badges/version/script
+    :target: https://cran.r-project.org/package=script
+    :alt: CRAN Status Badge
+
+.. |cran_scriptloc| image:: https://www.r-pkg.org/badges/version/scriptloc
+    :target: https://cran.r-project.org/package=scriptloc
+    :alt: CRAN Status Badge
+
+.. |cran_scriptName| image:: https://www.r-pkg.org/badges/version/scriptName
+    :target: https://cran.r-project.org/package=scriptName
     :alt: CRAN Status Badge
 
 .. |cran_NostalgiR| image:: https://www.r-pkg.org/badges/version/NostalgiR
@@ -403,6 +421,18 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
     :target: https://cran.r-project.org/package=keypress
     :alt: RStudio CRAN mirror downloads
 
+.. |downloads_script| image:: https://cranlogs.r-pkg.org/badges/script
+    :target: https://cran.r-project.org/package=script
+    :alt: RStudio CRAN mirror downloads
+
+.. |downloads_scriptloc| image:: https://cranlogs.r-pkg.org/badges/scriptloc
+    :target: https://cran.r-project.org/package=scriptloc
+    :alt: RStudio CRAN mirror downloads
+
+.. |downloads_scriptName| image:: https://cranlogs.r-pkg.org/badges/scriptName
+    :target: https://cran.r-project.org/package=scriptName
+    :alt: RStudio CRAN mirror downloads
+
 .. |downloads_NostalgiR| image:: https://cranlogs.r-pkg.org/badges/NostalgiR
     :target: https://cran.r-project.org/package=NostalgiR
     :alt: RStudio CRAN mirror downloads
@@ -547,6 +577,18 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
     :target: https://cran.r-project.org/package=keypress
     :alt: Dependencies Badge
 
+.. |dependencies_script| image:: https://tinyverse.netlify.app/badge/script
+    :target: https://cran.r-project.org/package=script
+    :alt: Dependencies Badge
+
+.. |dependencies_scriptloc| image:: https://tinyverse.netlify.app/badge/scriptloc
+    :target: https://cran.r-project.org/package=scriptloc
+    :alt: Dependencies Badge
+
+.. |dependencies_scriptName| image:: https://tinyverse.netlify.app/badge/scriptName
+    :target: https://cran.r-project.org/package=scriptName
+    :alt: Dependencies Badge
+
 .. |dependencies_NostalgiR| image:: https://tinyverse.netlify.app/badge/NostalgiR
     :target: https://cran.r-project.org/package=NostalgiR
     :alt: Dependencies Badge
@@ -583,8 +625,8 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
     :target: https://cran.r-project.org/package=txtplot
     :alt: Dependencies Badge
 
-R Argument/Option Parser Packages
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Argument/Option Parser Packages
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table:: R Argument/Option Parser Packages
   :header-rows: 1
@@ -667,6 +709,12 @@ R Argument/Option Parser Packages
     - |dependencies_minimist|
     - |coverage_minimist|
     - Archived on 2022-08-20
+  * - Rapp_
+    - |cran_Rapp|
+    - |downloads_Rapp|
+    - |dependencies_Rapp|
+    -
+    - `Rscript` alternative
   * - rconfig_
     - |cran_rconfig|
     - |downloads_rconfig|
@@ -692,8 +740,8 @@ R Argument/Option Parser Packages
     -
     - Archived on 2022-06-13
 
-`Rscript` Alternatives
-~~~~~~~~~~~~~~~~~~~~~~
+R Script Front Ends
+~~~~~~~~~~~~~~~~~~~
 
 There are a couple ways to run an R script ``script.R`` in a terminal with base R with the most popular way being Rscript_::
 
@@ -724,11 +772,42 @@ There are also a couple of alternative R scripting front-ends:
     -
     - Syntax for parsing CLI arguments/options
 
-Other R Packages of Potential Interest to CLI Developers
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Script Filename
+~~~~~~~~~~~~~~~
+
+* When running an R script ``script.R`` with Rscript_ the filename will be contained in the first ``--file=script.R`` string returned by ``commandArgs()``.
+* Many of the `argument/option parser packages`_ and `R script front ends`_ contain helper functions and or environmental variables to return this filename e.g. ``getopt::getfile()`` and littler_'s ``LITTLER_SCRIPT_PATH`` environmental variable but there exist some packages specialized in returning such filenames including from other contexts like calling a file with ``source()``:
+
+.. list-table:: Script Filename Packages
+  :header-rows: 1
+
+  * - Package
+    - CRAN
+    - Downloads
+    - Dependencies
+    - Coverage
+    - Note
+  * - script_
+    - |cran_script|
+    - |downloads_script|
+    - |dependencies_script|
+    -
+    -
+  * - scriptloc_
+    - |cran_scriptloc|
+    - |downloads_scriptloc|
+    - |dependencies_scriptloc|
+    -
+    -
+  * - scriptName_
+    - |cran_scriptName|
+    - |downloads_scriptName|
+    - |dependencies_scriptName|
+    -
+    -
 
 Terminal Manipulation/Styling
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 These packages can be used to manipulate the terminal and color/style terminal output:
 
@@ -791,7 +870,7 @@ These packages can be used to manipulate the terminal and color/style terminal o
     -
 
 Terminal Graphics
-^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~
 
 There are several packages to make graphics in the terminal:
 
@@ -854,7 +933,7 @@ There are several packages to make graphics in the terminal:
     -
 
 Terminal Tables
-^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~
 
 There are several packages to display tables in the terminal:
 

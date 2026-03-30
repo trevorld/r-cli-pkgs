@@ -49,7 +49,11 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 
 .. _ppcli: https://github.com/piecepackr/ppcli
 
+.. _rsixel: https://github.com/Fan-iX/rsixel
+
 .. _terminalgraphics: https://codeberg.org/djvanderlaan/terminalgraphics
+
+.. _txtplot: https://github.com/bbnkmp/txtplot
 
 .. |cran_argparse| image:: https://www.r-pkg.org/badges/version/argparse
     :target: https://cran.r-project.org/package=argparse
@@ -123,6 +127,22 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
     :target: https://cran.r-project.org/package=fansi
     :alt: CRAN Status Badge
 
+.. |cran_plotcli| image:: https://www.r-pkg.org/badges/version/plotcli
+    :target: https://cran.r-project.org/package=plotcli
+    :alt: CRAN Status Badge
+
+.. |cran_rsixel| image:: https://www.r-pkg.org/badges/version/rsixel
+    :target: https://cran.r-project.org/package=rsixel
+    :alt: CRAN Status Badge
+
+.. |cran_terminalgraphics| image:: https://www.r-pkg.org/badges/version/terminalgraphics
+    :target: https://cran.r-project.org/package=terminalgraphics
+    :alt: CRAN Status Badge
+
+.. |cran_txtplot| image:: https://www.r-pkg.org/badges/version/txtplot
+    :target: https://cran.r-project.org/package=txtplot
+    :alt: CRAN Status Badge
+
 .. |codecov_argparse| raw:: html
 
    <a href="https://app.codecov.io/github/trevorld/r-argparse?branch=master"><img alt="Coverage Status" src="https://codecov.io/github/trevorld/r-argparse/branch/master/graph/badge.svg" /></a>
@@ -158,6 +178,10 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 .. |codecov_crayon| raw:: html
 
    <a href="https://app.codecov.io/github/r-lib/crayon?branch=main"><img alt="Coverage Status" src="https://codecov.io/github/r-lib/crayon/branch/main/graph/badge.svg" /></a>
+
+.. |codecov_ppcli| raw:: html
+
+   <a href="https://app.codecov.io/github/piecepackr/ppcli?branch=main"><img alt="Coverage Status" src="https://codecov.io/github/piecepackr/ppcli/branch/main/graph/badge.svg" /></a>
 
 .. |codecov_fansi| raw:: html
 
@@ -235,6 +259,22 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
     :target: https://cran.r-project.org/package=fansi
     :alt: RStudio CRAN mirror downloads
 
+.. |downloads_plotcli| image:: https://cranlogs.r-pkg.org/badges/plotcli
+    :target: https://cran.r-project.org/package=plotcli
+    :alt: RStudio CRAN mirror downloads
+
+.. |downloads_rsixel| image:: https://cranlogs.r-pkg.org/badges/rsixel
+    :target: https://cran.r-project.org/package=rsixel
+    :alt: RStudio CRAN mirror downloads
+
+.. |downloads_terminalgraphics| image:: https://cranlogs.r-pkg.org/badges/terminalgraphics
+    :target: https://cran.r-project.org/package=terminalgraphics
+    :alt: RStudio CRAN mirror downloads
+
+.. |downloads_txtplot| image:: https://cranlogs.r-pkg.org/badges/txtplot
+    :target: https://cran.r-project.org/package=txtplot
+    :alt: RStudio CRAN mirror downloads
+
 .. |dependencies_argparse| image:: https://tinyverse.netlify.app/badge/argparse
     :target: https://cran.r-project.org/package=argparse
     :alt: Dependencies Badge
@@ -305,6 +345,22 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 
 .. |dependencies_fansi| image:: https://tinyverse.netlify.app/badge/fansi
     :target: https://cran.r-project.org/package=fansi
+    :alt: Dependencies Badge
+
+.. |dependencies_plotcli| image:: https://tinyverse.netlify.app/badge/plotcli
+    :target: https://cran.r-project.org/package=plotcli
+    :alt: Dependencies Badge
+
+.. |dependencies_rsixel| image:: https://tinyverse.netlify.app/badge/rsixel
+    :target: https://cran.r-project.org/package=rsixel
+    :alt: Dependencies Badge
+
+.. |dependencies_terminalgraphics| image:: https://tinyverse.netlify.app/badge/terminalgraphics
+    :target: https://cran.r-project.org/package=terminalgraphics
+    :alt: Dependencies Badge
+
+.. |dependencies_txtplot| image:: https://tinyverse.netlify.app/badge/txtplot
+    :target: https://cran.r-project.org/package=txtplot
     :alt: Dependencies Badge
 
 R Argument/Option Parser Packages
@@ -487,20 +543,32 @@ There are several packages to make graphics in the terminal:
     -
     -
   * - plotcli_
-    -
-    -
-    -
+    - |cran_plotcli|
+    - |downloads_plotcli|
+    - |dependencies_plotcli|
     -
     -
   * - ppcli_
     -
     -
     -
+    - |codecov_ppcli|
+    -
+  * - rsixel_
+    - |cran_rsixel|
+    - |downloads_rsixel|
+    - |dependencies_rsixel|
     -
     -
   * - terminalgraphics_
+    - |cran_terminalgraphics|
+    - |downloads_terminalgraphics|
+    - |dependencies_terminalgraphics|
     -
     -
-    -
+  * - txtplot_
+    - |cran_txtplot|
+    - |downloads_txtplot|
+    - |dependencies_txtplot|
     -
     -

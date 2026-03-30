@@ -9,7 +9,11 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 
 .. _argparser: https://bitbucket.org/djhshih/argparser/src/master/
 
+.. _arrg: https://github.com/jonclayden/arrg
+
 .. _batch: https://cran.r-project.org/package=batch
+
+.. _command: https://github.com/bayesiandemography/command
 
 .. _defineOptions: https://github.com/niceume/defineOptions
 
@@ -28,6 +32,10 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 .. _optparse: https://github.com/trevorld/r-optparse
 
 .. _Rapp: https://github.com/r-lib/Rapp
+
+.. _rconfig: https://github.com/analythium/rconfig
+
+.. _ribiosArg: https://github.com/bedapub/ribiosArg
 
 .. _Rscript: https://search.r-project.org/R/refmans/utils/html/Rscript.html
 
@@ -63,8 +71,16 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
     :target: https://cran.r-project.org/package=argparser
     :alt: CRAN Status Badge
 
+.. |cran_arrg| image:: https://www.r-pkg.org/badges/version/arrg
+    :target: https://cran.r-project.org/package=arrg
+    :alt: CRAN Status Badge
+
 .. |cran_batch| image:: https://www.r-pkg.org/badges/version/batch
     :target: https://cran.r-project.org/package=batch
+    :alt: CRAN Status Badge
+
+.. |cran_command| image:: https://www.r-pkg.org/badges/version/command
+    :target: https://cran.r-project.org/package=command
     :alt: CRAN Status Badge
 
 .. |cran_defineOptions| image:: https://www.r-pkg.org/badges/version/defineOptions
@@ -101,6 +117,14 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 
 .. |cran_Rapp| image:: https://www.r-pkg.org/badges/version/Rapp
     :target: https://cran.r-project.org/package=Rapp
+    :alt: CRAN Status Badge
+
+.. |cran_rconfig| image:: https://www.r-pkg.org/badges/version/rconfig
+    :target: https://cran.r-project.org/package=rconfig
+    :alt: CRAN Status Badge
+
+.. |cran_ribiosArg| image:: https://www.r-pkg.org/badges/version/ribiosArg
+    :target: https://cran.r-project.org/package=ribiosArg
     :alt: CRAN Status Badge
 
 .. |cran_scribe| image:: https://www.r-pkg.org/badges/version/scribe
@@ -146,6 +170,14 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 .. |codecov_argparse| raw:: html
 
    <a href="https://app.codecov.io/github/trevorld/r-argparse?branch=master"><img alt="Coverage Status" src="https://codecov.io/github/trevorld/r-argparse/branch/master/graph/badge.svg" /></a>
+
+.. |codecov_arrg| raw:: html
+
+   <a href="https://app.codecov.io/gh/jonclayden/arrg?branch=main"><img alt="Coverage Status" src="https://codecov.io/gh/jonclayden/arrg/branch/main/graph/badge.svg" /></a>
+
+.. |codecov_command| raw:: html
+
+   <a href="https://app.codecov.io/gh/bayesiandemography/command?branch=main"><img alt="Coverage Status" src="https://codecov.io/gh/bayesiandemography/command/branch/main/graph/badge.svg" /></a>
 
 .. |codecov_getopt| raw:: html
 
@@ -195,8 +227,16 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
     :target: https://cran.r-project.org/package=argparser
     :alt: RStudio CRAN mirror downloads
 
+.. |downloads_arrg| image:: https://cranlogs.r-pkg.org/badges/arrg
+    :target: https://cran.r-project.org/package=arrg
+    :alt: RStudio CRAN mirror downloads
+
 .. |downloads_batch| image:: https://cranlogs.r-pkg.org/badges/batch
     :target: https://cran.r-project.org/package=batch
+    :alt: RStudio CRAN mirror downloads
+
+.. |downloads_command| image:: https://cranlogs.r-pkg.org/badges/command
+    :target: https://cran.r-project.org/package=command
     :alt: RStudio CRAN mirror downloads
 
 .. |downloads_defineOptions| image:: https://cranlogs.r-pkg.org/badges/defineOptions
@@ -233,6 +273,14 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 
 .. |downloads_Rapp| image:: https://cranlogs.r-pkg.org/badges/Rapp
     :target: https://cran.r-project.org/package=Rapp
+    :alt: RStudio CRAN mirror downloads
+
+.. |downloads_rconfig| image:: https://cranlogs.r-pkg.org/badges/rconfig
+    :target: https://cran.r-project.org/package=rconfig
+    :alt: RStudio CRAN mirror downloads
+
+.. |downloads_ribiosArg| image:: https://cranlogs.r-pkg.org/badges/ribiosArg
+    :target: https://cran.r-project.org/package=ribiosArg
     :alt: RStudio CRAN mirror downloads
 
 .. |downloads_scribe| image:: https://cranlogs.r-pkg.org/badges/scribe
@@ -283,8 +331,16 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
     :target: https://cran.r-project.org/package=argparser
     :alt: Dependencies Badge
 
+.. |dependencies_arrg| image:: https://tinyverse.netlify.app/badge/arrg
+    :target: https://cran.r-project.org/package=arrg
+    :alt: Dependencies Badge
+
 .. |dependencies_batch| image:: https://tinyverse.netlify.app/badge/batch
     :target: https://cran.r-project.org/package=batch
+    :alt: Dependencies Badge
+
+.. |dependencies_command| image:: https://tinyverse.netlify.app/badge/command
+    :target: https://cran.r-project.org/package=command
     :alt: Dependencies Badge
 
 .. |dependencies_defineOptions| image:: https://tinyverse.netlify.app/badge/defineOptions
@@ -321,6 +377,14 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 
 .. |dependencies_Rapp| image:: https://tinyverse.netlify.app/badge/Rapp
     :target: https://cran.r-project.org/package=Rapp
+    :alt: Dependencies Badge
+
+.. |dependencies_rconfig| image:: https://tinyverse.netlify.app/badge/rconfig
+    :target: https://cran.r-project.org/package=rconfig
+    :alt: Dependencies Badge
+
+.. |dependencies_ribiosArg| image:: https://tinyverse.netlify.app/badge/ribiosArg
+    :target: https://cran.r-project.org/package=ribiosArg
     :alt: Dependencies Badge
 
 .. |dependencies_scribe| image:: https://tinyverse.netlify.app/badge/scribe
@@ -387,11 +451,23 @@ R Argument/Option Parser Packages
     - |dependencies_argparser|
     -
     -
+  * - arrg_
+    - |cran_arrg|
+    - |downloads_arrg|
+    - |dependencies_arrg|
+    - |codecov_arrg|
+    -
   * - batch_
     - |cran_batch|
     - |downloads_batch|
     - |dependencies_batch|
     -
+    -
+  * - command_
+    - |cran_command|
+    - |downloads_command|
+    - |dependencies_command|
+    - |codecov_command|
     -
   * - defineOptions_
     - |cran_defineOptions|
@@ -435,6 +511,18 @@ R Argument/Option Parser Packages
     - |dependencies_minimist|
     - |codecov_minimist|
     - Archived on 2022-08-20
+  * - rconfig_
+    - |cran_rconfig|
+    - |downloads_rconfig|
+    - |dependencies_rconfig|
+    -
+    -
+  * - ribiosArg_
+    - |cran_ribiosArg|
+    - |downloads_ribiosArg|
+    - |dependencies_ribiosArg|
+    -
+    -
   * - scribe_
     - |cran_scribe|
     - |downloads_scribe|

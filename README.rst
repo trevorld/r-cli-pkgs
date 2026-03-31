@@ -43,6 +43,8 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 
 .. _scribe: https://github.com/jmbarbone/scribe
 
+.. _W4MRUtils: https://github.com/workflow4metabolomics/W4MRUtils
+
 .. _Xmisc: https://cran.r-project.org/package=Xmisc
 
 .. _bittermelon: https://github.com/trevorld/bittermelon
@@ -159,6 +161,10 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 
 .. |cran_scribe| image:: https://www.r-pkg.org/badges/version/scribe
     :target: https://cran.r-project.org/package=scribe
+    :alt: CRAN Status Badge
+
+.. |cran_W4MRUtils| image:: https://www.r-pkg.org/badges/version/W4MRUtils
+    :target: https://cran.r-project.org/package=W4MRUtils
     :alt: CRAN Status Badge
 
 .. |cran_Xmisc| image:: https://www.r-pkg.org/badges/version/Xmisc
@@ -381,6 +387,10 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
     :target: https://cran.r-project.org/package=scribe
     :alt: RStudio CRAN mirror downloads
 
+.. |downloads_W4MRUtils| image:: https://cranlogs.r-pkg.org/badges/W4MRUtils
+    :target: https://cran.r-project.org/package=W4MRUtils
+    :alt: RStudio CRAN mirror downloads
+
 .. |downloads_Xmisc| image:: https://cranlogs.r-pkg.org/badges/Xmisc
     :target: https://cran.r-project.org/package=Xmisc
     :alt: RStudio CRAN mirror downloads
@@ -535,6 +545,10 @@ Please `submit an issue <https://github.com/trevorld/splendid-r-cli-parsers/issu
 
 .. |dependencies_scribe| image:: https://tinyverse.netlify.app/badge/scribe
     :target: https://cran.r-project.org/package=scribe
+    :alt: Dependencies Badge
+
+.. |dependencies_W4MRUtils| image:: https://tinyverse.netlify.app/badge/W4MRUtils
+    :target: https://cran.r-project.org/package=W4MRUtils
     :alt: Dependencies Badge
 
 .. |dependencies_Xmisc| image:: https://tinyverse.netlify.app/badge/Xmisc
@@ -732,6 +746,12 @@ Argument/Option Parser Packages
     - |downloads_scribe|
     - |dependencies_scribe|
     - |coverage_scribe|
+    -
+  * - W4MRUtils_
+    - |cran_W4MRUtils|
+    - |downloads_W4MRUtils|
+    - |dependencies_W4MRUtils|
+    -
     -
   * - Xmisc_
     - |cran_Xmisc|
